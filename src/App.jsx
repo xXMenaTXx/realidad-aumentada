@@ -17,8 +17,8 @@ function App() {
         <button onClick={cerrarAR}>Cerrar Cámara AR</button>
         {mostrarAR && (
           <model-viewer
-            src="/model.glb" // Modelo 3D en formato GLB
-            ios-src="/manijas.usdz" // Modelo en formato USDZ para iOS
+            src="/sanitario_aluvia_rd.glb" // Modelo 3D en formato GLB
+            ios-src="/sanitario_aluvia_rd.usdz" // Modelo en formato USDZ para iOS
             ar // Habilita AR
             ar-modes="scene-viewer quick-look webxr"
             camera-controls // Permite controles de cámara
